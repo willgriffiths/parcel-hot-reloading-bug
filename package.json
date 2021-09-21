@@ -1,0 +1,28 @@
+{
+  "name": "@fs/bundles",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
+  "scripts": {
+    "start": "parcel serve packages/hero --port 3000"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

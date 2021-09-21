@@ -1,0 +1,8 @@
+{
+  "name": "@ws/components",
+  "version": "1.0.0",
+  "scripts": {},
+  "devDependencies": {
+    "@storybook/react": "^6.2.9"
+  }
+}
